@@ -1,9 +1,8 @@
 namespace re.fulfillment;
 using { cuid, managed} from '@sap/cds/common';
 type OrderStatus:String enum{
-    DREAFT;
+    DRAFT;
     CONFIRMED;
-    PARTIALLY_DELIVERED;
     DELIVERED;
     BILLED;
     CANCELLED;
@@ -15,7 +14,7 @@ type DeliveryStatus:String enum{
     PACKED;
     DISPATCHED;
     IN_TRANSIT;
-    DILVERED;
+    DELIVERED;
 }
 
 type ShipmentStatus:String enum{
