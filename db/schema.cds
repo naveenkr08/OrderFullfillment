@@ -15,6 +15,9 @@ type DeliveryStatus:String enum{
     DISPATCHED;
     IN_TRANSIT;
     DELIVERED;
+
+
+    
 }
 
 type ShipmentStatus:String enum{
