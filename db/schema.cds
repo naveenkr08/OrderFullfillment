@@ -26,7 +26,7 @@ type ShipmentStatus:String enum{
 
 
 
-    
+
 }
 
 type BillingStatus:String enum{
@@ -45,6 +45,118 @@ entity Dealers:cuid,managed{
     salesOrders:Association to many SalesOrders on salesOrders.dealer=$self;
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 entity SalesOrders : cuid, managed {
     orderNumber : String(30);
