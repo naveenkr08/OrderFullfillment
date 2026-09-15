@@ -1,6 +1,15 @@
 namespace re.fulfillment;
 using { cuid, managed} from '@sap/cds/common';
 
+
+
+
+
+
+
+
+
+
 type OrderStatus:String enum{
     DREAFT;
     CONFIRMED;
