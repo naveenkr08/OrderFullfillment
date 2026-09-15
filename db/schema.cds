@@ -22,6 +22,11 @@ type ShipmentStatus:String enum{
     IN_TRANSIT;
     DELIVERED;
     DELAYED;
+
+
+
+
+    
 }
 
 type BillingStatus:String enum{
