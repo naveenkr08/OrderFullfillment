@@ -32,8 +32,6 @@ type BillingStatus:String enum{
     CANCELLED;
 }
 
-
-
 entity Dealers:cuid,managed{
     dealerCode:String(20);
     dealerName:String(100);
@@ -86,6 +84,7 @@ entity Deliveries:cuid,managed{
     salesOrder:Association to SalesOrders;
 
 }
+
 entity Shipments:cuid,managed{
     shipmentNumber:String(30);
     status:ShipmentStatus;
@@ -101,6 +100,6 @@ entity Billings:cuid,managed{
     billingNumber:String(30);
     status:BillingStatus;
     billingDate:Date;
-    amount:Decimal(15,2);
+    amounts:Decimal(15,2);
     salesOrder:Association to SalesOrders;
 }
