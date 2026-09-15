@@ -1,0 +1,6 @@
+ID,productCode,productName,category,unitPrice,availableQty,active
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,RE001,Classic 350,Motorcycle,195000.00,50,true
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,RE002,Hunter 350,Motorcycle,175000.00,75,true
+cccccccc-cccc-cccc-cccc-cccccccccccc,RE003,Meteor 350,Motorcycle,205000.00,40,true
+dddddddd-dddd-dddd-dddd-dddddddddddd,RE004,Continental GT 650,Motorcycle,320000.00,25,true
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,RE005,Interceptor 650,Motorcycle,305000.00,30,true
